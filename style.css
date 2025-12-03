@@ -1,0 +1,71 @@
+*{
+padding: 0%;
+margin: 0%;
+background-color:white ;
+}
+
+
+nav ul{
+display: flex;
+gap: 5px;
+list-style:none ;
+padding: 0%;
+margin: 0%;
+
+}
+
+  nav ul li a{
+text-decoration: none;
+font-size: 15px;
+color:black ;
+padding:65px ;
+position: relative;
+left:100px ;
+font-family: Arial, Helvetica, sans-serif;
+background: none;
+
+
+}
+
+li{
+list-style: none;
+}
+
+.menu{
+    display: flex;
+    padding:5px ;
+    margin:10px ;
+    list-style: none;
+    align-items: center;
+    padding: 0 95px;
+
+}
+
+ul{
+display: flex;
+flex-direction: row;
+}
+
+.home-menu{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.login-btn{
+background-color: orangered;
+color: white;
+padding:8px 16px ;
+border-radius:20px ;
+text-decoration: none;
+
+}
+
+.banner{
+background-image:url("./assets/Section.png") ;
+height: 700px; ;
+width: 1800px;
+border-radius: 20px;
+
+}
+
