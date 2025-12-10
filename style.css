@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
 }
-@font-face {
-    font-family: inter;
-    src: url("./assets/fonte/Inter-VariableFont_opsz\,wght.ttf");
-}       
+   
 .menu{ 
     
     display: flex;
@@ -40,11 +37,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 11px;
+    font-size: 17px;
     
 }
 li a{
-    font-family: inter;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: black;
 
@@ -107,7 +104,6 @@ justify-content: center;
 .texto-banner{
     color: white;
     font-size: 15px;
-    font-family: inter;
     padding: 10px;
 }
 .opcoes-pesquisa{
@@ -119,6 +115,7 @@ justify-content: center;
     flex-direction: row;
     gap: 20px  ;
     border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .quadrado{
     border: 1px solid lightgrey;
@@ -167,7 +164,7 @@ justify-content: center;
 
 .titulo-primario{
     
-    font-family: inter;
+    
     font-weight: bold;
     font-size: 25px;
     display: flex;
@@ -181,17 +178,19 @@ justify-content: center;
 }
 .titulo-qualidades{
     
-    font-family: inter;
+   
     font-weight: bold;
     font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .texto-qualidades{
     margin-top: 15px;
-    font-family: inter;
+  
     font-size: 17px;
     width: 250px;
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .caixa-qualidades{
@@ -218,6 +217,7 @@ justify-content: center;
     width: 135px;
     height: 200px;
     gap: 5px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -248,14 +248,14 @@ justify-content: center;
     flex-direction: column;
 }
 
-.dercerto{
+.find-popular{
     width: 1320px;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
 }
-.deucerto{
+.teste{
     width: 1320px;
     display: flex;
     align-items: start;
@@ -287,7 +287,7 @@ justify-content: center;
     flex-direction: column;
 }
 
-.continuacerto{
+.titulo-elementos{
     
     width: 1320px;
     display: flex;
@@ -303,8 +303,7 @@ hr{
     
 }
 
-.subtexo-card{
-    font-family: inter;
+.subtexto-card{
     font-size: 12px;
 }
 
@@ -333,7 +332,6 @@ hr{
 }
 .preco-card{
     font-weight: bold;
-    font-family: inter;
     font-size: 14px;
 }
 .caixa-preco{
@@ -351,19 +349,18 @@ hr{
     flex-wrap: wrap;
 }
 .titulo-card{
-    font-family: inter;
     font-size: 16px;
     width: 290px;
     font-weight: bold;
 
 }
 .texto-localidade-card{
-    font-family: inter;
     font-size: 12px;
     color: darkgrey;
     width: 110px;
     display: flex;
     justify-content: center;
+    
 }
 .section-desconto{
     display: flex;
@@ -380,12 +377,10 @@ hr{
     width: 350px;
 }
 .texto-titulo-descontos{
-    font-family: inter;
     font-size: 40px;
     font-weight: bold;
 }
 .desconto-span{
-    font-family: inter;
     font-size: 40px;
     color: #EB662B;
 }
@@ -406,16 +401,13 @@ hr{
     margin-top: 30px;
 }
 .titulo-pesquisa{
-    font-family: inter;
     font-size: 14px;
 }
 .texto-pesquisa{
-    font-family: inter;
     color: darkgrey;
     font-size: 12px;
 }
 .texto-pesquisa-data{
-    font-family: inter;
     font-size: 12px;
 }
 .caixa-descontos{
@@ -491,29 +483,67 @@ font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     
 }
-.img-app{
-background-repeat: no-repeat;
-    background-size: cover;
-    height: 677px;
-    width: 900px;
+.section-banner-telefone{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
-    border-radius: 15px;
-     margin: auto;
-     padding:30px ;
+}
+.caixa-banner-telefone{
+    background-image: url(./assets/img/banner-telefone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1530px;
+    height: 514px;
+}
+.titulo-telefone{
+    color: white;
+    font-size: 50px;
+    width: 365px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.texto-telefone{
+    color: white;
+    font-size: 15px;
+    width: 313px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
 
 }
-
-.texto-app{
-background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:30px ;
+.texto-email-telefone{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.caixa-pesquisa-telefone{
+    width: 350px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 15px;
     
+}
+.btn-telefone{
+    width: 106px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    color: #4A43C4;
+}
+.caixa-email{
+   
+    width: 100%;
+    gap: 0px;
+}
+.caixa-texto-telefone{
+    width: 490px;
+   text-align: left;
+  position: absolute;
+  left: 250px;
 }
